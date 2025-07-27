@@ -2,7 +2,7 @@
 
 Este repositorio contiene dos programas MPI en Python (mpi4py) para demostrar y analizar operaciones colectivas y mediciones de latencia punto a punto
 
-1. Operaciones Colectivas en MPI (estadisticas_mpi.py)
+## 1. Operaciones Colectivas en MPI (estadisticas_mpi.py)
 
 Este programa calcula estadísticas globales (mínimo, máximo, promedio) de un arreglo de números aleatorios utilizando operaciones colectivas de MPI: MPI_Bcast para el tamaño, MPI_Scatter para distribuir el arreglo y MPI_Reduce para los resultados globales.
 
@@ -37,7 +37,7 @@ Máximo Global: 100.00
 Promedio Global: 50.01
 
 
- 2. Medición de Latencia de Comunicaciones Punto a Punto (latencia_mpi.py)
+ ## 2. Medición de Latencia de Comunicaciones Punto a Punto (latencia_mpi.py)
 
 Este programa mide la latencia de comunicación entre dos procesos (rank 0 y rank 1) utilizando repetidamente MPI_Send y MPI_Recv. El proceso 0 envía un mensaje al proceso 1, que lo devuelve inmediatamente. El tiempo total se mide y se calcula la latencia promedio.
 
